@@ -1,0 +1,22 @@
+group 'com.tong.springtest'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'war'
+
+ext {
+    servlet_version = '2.5'
+    spring_version = '4.0.2.RELEASE'
+}
+
+dependencies {
+    providedCompile(
+
+    )
+
+    compile(
+            "javax.servlet:servlet-api:$servlet_version"
+    )
+}
+
+
+

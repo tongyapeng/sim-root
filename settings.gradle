@@ -1,3 +1,4 @@
 rootProject.name = 'sim-root'
 include 'sim-website'
+include 'sim-core'
 
